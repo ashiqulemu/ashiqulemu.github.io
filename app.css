@@ -1,0 +1,50 @@
+body {
+  background: #2d2922 !important;
+  color: #fff !important;
+}
+
+body.active {
+  background-color: #6b5203 !important;
+}
+
+.switch {
+  cursor: pointer;
+  background-color: blue;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.switch input[type='checkbox'] {
+  display: none;
+}
+
+.switch input[type='checkbox']:checked + span:after {
+  display: block;
+  content: 'ON';
+  background: #8BC34A;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 3px;
+  bottom: 0;
+}
+
+.switch span:after {
+  display: block;
+  content: 'OFF';
+  background: #6d6d6d;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  padding-top: 3px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=app.css.map */

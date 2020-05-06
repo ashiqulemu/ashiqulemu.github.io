@@ -1,1 +1,58 @@
-welcome emu!  😁😁😁😁
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light project </title>  
+	<link rel="stylesheet" href="app.css"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+</head>
+<body id="body">
+
+    <div class="section mt-5">
+
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-2  text-center"> 
+  <img id="light" src="off.png" align="center" width="200px"alt="">  
+                    </div> 
+                <div class="col-lg-2  text-center pb-5">  <br>
+                <h6>Press the switch and on/off the light !</h6>
+                    <label class="switch mt-3">                      
+                        <input type="checkbox" id="switch" onclick="switching()" />
+                        <span></span>
+                    </label>
+                </div> 
+                <div class="col-lg-4"></div>
+
+            </div>
+        </div>
+
+    </div>
+ 
+<script>
+
+    function switching(){  
+	
+        let status = document.getElementById("switch"); 
+        
+               if(status.checked == true){
+			       document.getElementById("light").src='onn.png';
+			       let body =  document.getElementById("body");
+                    body.classList.add("active");
+
+			   }else{
+			       document.getElementById("light").src='off.png';
+                   let body =  document.getElementById("body");
+                    body.classList.remove("active");
+			   }
+
+
+    }
+   
+
+
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #373e5d;
+}
+
+.copyright {
+  color: #fff !important;
+  margin-bottom: 25px;
+}
+
+.container {
+  max-width: 70.9%;
+  padding: 20px;
+  background: #d3d3d32b;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 82.9%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.container .items {
+  background: #c5c5c5;
+  padding: 10px;
+  display: inline;
+  height: 100px;
+  width: 100px;
+  margin: 1px;
+  border: 2px solid transparent;
+}
+
+@media (max-width: 375px) {
+  .container .items {
+    height: 113px;
+    width: 113px;
+  }
+}
+
+.container .items audio {
+  display: none;
+}
+
+.container .items:hover {
+  cursor: pointer;
+  border: 2px solid #fdfdfd;
+  -webkit-box-shadow: inset 0px -1px 20px 0px #00000047;
+          box-shadow: inset 0px -1px 20px 0px #00000047;
+}
+
+.container .items:nth-child(1) {
+  background: url(../images/alif.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(2) {
+  background: url(../images/ba.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(3) {
+  background: url(../images/ta.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(4) {
+  background: url(../images/sa.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(5) {
+  background: url(../images/jim.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(6) {
+  background: url(../images/ha.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(7) {
+  background: url(../images/kha.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(8) {
+  background: url(../images/daal.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(9) {
+  background: url(../images/thaal.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(10) {
+  background: url(../images/ra.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(11) {
+  background: url(../images/zay.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(12) {
+  background: url(../images/siin.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(13) {
+  background: url(../images/shiin.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(14) {
+  background: url(../images/saad.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(15) {
+  background: url(../images/daad.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(16) {
+  background: url(../images/taa.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(17) {
+  background: url(../images/thaa.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(18) {
+  background: url(../images/ayn.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(19) {
+  background: url(../images/ghayn.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(20) {
+  background: url(../images/fa.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(21) {
+  background: url(../images/qaf.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(22) {
+  background: url(../images/kaf.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(23) {
+  background: url(../images/lam.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(24) {
+  background: url(../images/miim.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(25) {
+  background: url(../images/nuun.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(26) {
+  background: url(../images/waw.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(27) {
+  background: url(../images/ha.png);
+  background-size: contain;
+}
+
+.container .items:nth-child(28) {
+  background: url(../images/ya.png);
+  background-size: contain;
+}
+/*# sourceMappingURL=app.css.map */

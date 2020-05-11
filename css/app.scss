@@ -8,21 +8,51 @@
     }
 
     .copyright{
-        color:#fff!important;
-        margin-bottom: 25px;
+        color: #fff !important;      
+        background: #333956;
+        padding: 12px;
+        position: relative;
+              
     }
 
-.container{
-    max-width: 70.9%;
-    padding: 20px;
-    background: #d3d3d32b;
-    margin: 50px auto;
+    .heading{
+        padding: 22px 0;
+        font-size: 1.3rem;
+        color: #fff;
+        text-transform: capitalize;
+    
+    }
+
+    .main{
+         display: flex;
+         justify-content: center;
+         height:100vh;
+         .content{
+            flex:1; 
+            padding-right: 10px;
+         }
+         .sidebar{
+                flex-basis:300px; 
+                background-color: #465182;
+         }
+    }
+
+.blocks-container{
+    margin-bottom: 20px;
+    width: 100%; 
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
 
     @media(max-width:768px){
         max-width: 82.9%;
@@ -32,13 +62,12 @@
     }
 
     .items{
-        background: #c5c5c5;
         padding: 10px;
-        display: inline;
-        height: 100px;
-        width: 100px;
+        -ms-flex-preferred-size: 135px;
+        flex-basis: 100px;
         margin: 1px;
-        border:2px solid transparent;
+        border: 2px solid transparent;
+        height: 100px;
 
         @media(max-width:375px){
             height: 113px;
@@ -78,7 +107,7 @@
             }
 
             &:nth-child(6){
-                background: url(../images/ha.png);
+                background: url(../images/haa.png);
                 background-size: contain;
             }
 
